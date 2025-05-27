@@ -27,6 +27,7 @@ public class EditMahasiswaActivity extends AppCompatActivity {
         editJurusan = findViewById(R.id.editJurusan);
         btnUpdate = findViewById(R.id.btnUpdate);
 
+
         // mengambil data dari intent
         id = getIntent().getStringExtra("id");
         editNrp.setText(getIntent().getStringExtra("nrp"));

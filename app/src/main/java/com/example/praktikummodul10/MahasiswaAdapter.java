@@ -81,7 +81,6 @@ public class MahasiswaAdapter extends RecyclerView.Adapter<MahasiswaAdapter.View
         });
 
     }
-
     @Override
     public int getItemCount() {
         return mahasiswaList.size();
